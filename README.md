@@ -1,6 +1,8 @@
 # JPacman
 
-![example workflow](https://github.com/cragkhit/jpacman/actions/workflows/jpacman.yml/badge.svg)
+![example workflow](https://github.com/cragkhit/jpacman/actions/workflows/jpacman.yml/badge.svg) 
+![Coverage](.github/badges/jacoco.svg)
+![Branches](.github/badges/branches.svg)
 
 ## About
 
