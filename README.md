@@ -1,6 +1,6 @@
 # JPacman
 
-[![Build Status](https://travis-ci.com/SERG-Delft/jpacman.svg?branch=master)](https://travis-ci.com/SERG-Delft/jpacman)
+![example workflow](https://github.com/cragkhit/jpacman/actions/workflows/jpacman.yml/badge.svg)
 
 ## About
 
