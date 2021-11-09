@@ -52,7 +52,8 @@ public class MapParserTest {
      */
     @Test
     public void testParseMapWrong1() {
-        PacmanConfigurationException thrown = Assertions.assertThrows(PacmanConfigurationException.class, () -> {
+        PacmanConfigurationException thrown =
+            Assertions.assertThrows(PacmanConfigurationException.class, () -> {
             MockitoAnnotations.initMocks(this);
             assertNotNull(boardFactory);
             assertNotNull(levelFactory);
