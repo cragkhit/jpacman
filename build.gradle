@@ -35,6 +35,22 @@ dependencies {
 
     testImplementation "org.junit.jupiter:junit-jupiter:$junitVersion"
     testCompile "org.mockito:mockito-core:$mockitoVersion"
+    /**
+     * JUnit Jupiter parameter configuration.
+     */
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-params', version: '5.2.0'
+    /**
+     * JUnit Jupiter testing engine.
+     */
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.2.0'
+    /**
+     * Vintage platform engine.
+     */
+    testCompile group: 'org.junit.platform', name: 'junit-platform-engine', version: '1.2.0'
+    /**
+     * JUnit jupiter with mockito.
+     */
+    testCompile group: 'org.mockito', name: 'mockito-junit-jupiter', version: '2.19.0'
     testCompile "org.assertj:assertj-core:$assertjVersion"
 }
 
